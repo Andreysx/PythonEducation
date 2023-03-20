@@ -73,8 +73,8 @@ result_string = ''
 print(array)
  
 for i in range(len(array) - 1):
-if (array[i] < array[i+1]):
-counter += 1
+    if (array[i] < array[i+1]):
+        counter += 1
 result_string += f'{array[i]} < {array[i + 1]}'
  
 print(f'{counter} ({result_string})') 
